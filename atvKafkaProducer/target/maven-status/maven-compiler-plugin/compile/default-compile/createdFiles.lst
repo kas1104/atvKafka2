@@ -1,0 +1,3 @@
+com\aulaKafka\Spring\Application.class
+com\aulaKafka\Spring\controller\ProdutoController.class
+com\aulaKafka\Spring\config\KafkaProducerConfig.class
