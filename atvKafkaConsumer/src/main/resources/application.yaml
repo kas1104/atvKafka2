@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+
+spring:
+  application:
+    name: Consumer
+    kafka:
+      bootstrap-servers: localhost:9092
+      consumer:
+        group-id: grupo-produto
+        key-serializer: org.apache.kafka.common.serialization.StringSerializer
+        value-serializer: org.apache.kafka.common.serialization.StringSerializer
+        auto-offset-reset: earliest
